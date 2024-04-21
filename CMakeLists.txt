@@ -3,4 +3,6 @@ project(LearningProject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(LearningProject main.cpp)
+add_executable(LearningProject main.cpp
+        random/mersenne_twister.h
+)
